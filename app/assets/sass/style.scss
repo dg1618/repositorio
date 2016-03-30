@@ -1,0 +1,44 @@
+@import "../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap";
+
+body{
+	 margin:auto; 
+	 background-color:blue;
+	 header{
+	 	section{
+		 	background-color:yellow;
+	 	}
+	 }
+	 nav {
+	 	background-color:red;
+	 	border:1px solid white;
+	 }
+	 #main{
+	 	background-color:white;
+	 	section{
+		 	background-color:black;
+		 	border:1px solid white;
+	 	}
+	 	article{
+	 		background-color:orange;
+	 		display:block;
+	 		width:50%;
+	 		position:relative;
+	 		float:left;
+	 		header{
+	 			background-color:black;
+	 		}
+	 	}
+	 	aside{
+		 	background-color:purple;
+		 	display:block;
+	 		width:50%; 
+	 		position:relative;
+	 		float:right;
+	 	}
+
+	 }
+ 	 	footer {
+	 		background-color:green;
+	 	
+	 	}
+}
